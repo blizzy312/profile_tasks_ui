@@ -14,14 +14,14 @@ or by downloading repository as zip file and exctact it to your desired location
 <table >
   <thead>
         <tr>
+            <th>My application</th>
             <th>Original Design</th>
-            <th>My Application</th>
         </tr>
   </thead>
   <tbody>
         <tr>
-          <td align="left"><img src="/overview_assets/overview.gif"  width="300" height="650"/></td>
-          <td align="center"><img src="/overview_assets/original.gif"  width="300" height="500"/></td>
+          <td align="left"><img src="/overview_assets/overview.gif"  width="400" height="650"/></td>
+          <td align="right"><img src="/overview_assets/original.gif"  width="300" height="500"/></td>
         </tr>
   </tbody>
   
