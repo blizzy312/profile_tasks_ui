@@ -20,7 +20,7 @@ or by downloading repository as zip file and exctact it to your desired location
   </thead>
   <tbody>
         <tr>
-          <td align="left"><img src="/overview_assets/overview.gif"  width="300" height="500"/></td>
+          <td align="left"><img src="/overview_assets/overview.gif"  width="300" height="650"/></td>
           <td align="center"><img src="/overview_assets/original.gif"  width="300" height="500"/></td>
         </tr>
   </tbody>
