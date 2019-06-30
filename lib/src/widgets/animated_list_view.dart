@@ -55,7 +55,7 @@ class _TasksListViewState extends State<TasksListView> {
 
   _addItems(Map<int, TaskModel> newTasks){
     newTasks.forEach( (index, task) {
-      listKey.currentState.insertItem(index, duration: const Duration(milliseconds: 450));
+      listKey.currentState.insertItem(index, duration: const Duration(milliseconds: 350));
       tasks.insert(index, task);
     });
   }
@@ -72,15 +72,16 @@ class _TasksListViewState extends State<TasksListView> {
               child: itemToRemove,
             );
           },
-        duration: const Duration(milliseconds: 450),
+        duration: const Duration(milliseconds: 350),
       );
       tasks.removeAt(removeList[i]);
     }
   }
 
   Widget buildItem(BuildContext context, int index, Animation<double> animation) {
-    return ScaleTransition(
-      scale: animation,
+    return SizeTransition(
+      axis: Axis.vertical,
+      sizeFactor: animation,
       child: _taskItem(context, tasks[index]),
     );
   }

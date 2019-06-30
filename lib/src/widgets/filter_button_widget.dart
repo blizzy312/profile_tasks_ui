@@ -89,14 +89,17 @@ class _FilterButtonState extends State<FilterButton> with TickerProviderStateMix
       offset: offset,
       child: Opacity(
         opacity: _transitionAnimation.value,
-        child: IconButton(
-          icon: Icon(
+        child: MaterialButton(
+          child: Icon(
             icon,
             size: 25,
             color: Colors.white,
           ),
+          splashColor: Colors.white70,
+          shape: CircleBorder(),
           onPressed: () {
             widget.bloc.filterTasks(condition);
+            widget.bloc.toggleButtonState();
           },
         ),
       ),

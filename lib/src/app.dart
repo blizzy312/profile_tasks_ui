@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ProfileScreenBlocProvider(
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: ProfileScreen(),
       ),
     );
