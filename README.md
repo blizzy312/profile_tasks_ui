@@ -6,7 +6,7 @@ This repository contains source code for tasks tracking application UI. This app
 Download this repository into your desired location (for example Desktop) using [git](https://git-scm.com/):
 ```
 cd C:\Users\Username\Desktop
-git clone https://github.com/blizzy312/cinema_app_ui.git
+git clone https://github.com/blizzy312/profile_tasks_ui.git
 ```
 or by downloading repository as zip file and exctact it to your desired location.
 
